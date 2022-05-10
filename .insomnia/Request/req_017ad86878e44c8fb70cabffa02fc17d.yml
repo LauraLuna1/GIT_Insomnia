@@ -1,0 +1,48 @@
+_id: req_017ad86878e44c8fb70cabffa02fc17d
+type: Request
+parentId: fld_f2d6a27265d44511b283aa3a32f224ad
+modified: 1651670764525
+created: 1649690886523
+url: http://localhost:8082/api/coupons
+name: Add
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name":"MEGA 1",
+    	"start_date":"2022-04-18",
+    	"due_date": "2022-04-22",
+      "is_value":1,
+      "value":10,
+    	"apply_promotion":1,
+      "promotion_id":1,
+    	"description":"descripcion de este cupon",
+      "qty":3,
+    	"type":"manual"
+    }
+parameters: []
+headers:
+  - id: pair_5675435b1d09464d9fd9a96f30af4adf
+    name: x-bodytech-organization
+    value: "1"
+    description: ""
+  - id: pair_15303c94505d416a939804d353697bdc
+    name: x-bodytech-brand
+    value: "1"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_2583b75572364162b43422c14e11eb3f
+authentication:
+  type: bearer
+  token: 287d9807668e6cc312dbaf7083cb8183dbb757e3
+metaSortKey: -1649615380426.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

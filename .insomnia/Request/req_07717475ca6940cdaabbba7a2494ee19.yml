@@ -1,0 +1,40 @@
+_id: req_07717475ca6940cdaabbba7a2494ee19
+type: Request
+parentId: fld_5af695b677684eea949e0c7214147de9
+modified: 1651263221513
+created: 1651092332056
+url: localhost:8000/api/crm-step/9
+name: step
+description: ""
+method: DELETE
+body:
+  mimeType: ""
+  text: |-
+    {
+        "name":"prueba johan update",
+        "crm_funnels_id":9
+    }
+parameters: []
+headers:
+  - name: x-bodytech-organization
+    value: "1"
+    id: pair_48ef9cfe1f4144e7b50ab83ab7605265
+  - name: x-bodytech-branch
+    value: "1"
+    id: pair_cfe1f37d870d42118957ead82579ee08
+  - name: Content-Type
+    value: application/json
+    id: pair_3385a5a267c44183a05b0a806a33946a
+authentication:
+  type: bearer
+  disabled: false
+  token: 060ba2d11bbff73222e4ddf9d603bb069531e91e
+  prefix: ""
+metaSortKey: -1651092332056
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

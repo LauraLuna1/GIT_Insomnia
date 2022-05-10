@@ -1,0 +1,35 @@
+_id: req_db32ad0686cb4cf184c414f99161b765
+type: Request
+parentId: fld_cdbc4b297d1541cb9a61677f68639ea0
+modified: 1651004648386
+created: 1649427154031
+url: "{{ _.url }}promotion-profiles"
+name: POST Promotion profile
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "name": 1,
+        "sex": 3,
+        "age_start": 1,
+        "age_end": 1,
+        "birthday_start": 176679,
+        "birthday_end": 2,
+        "user_last_update":19
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_3151ccef367d46f48e39219dfae4b7c7
+authentication: {}
+metaSortKey: -1649189048001
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

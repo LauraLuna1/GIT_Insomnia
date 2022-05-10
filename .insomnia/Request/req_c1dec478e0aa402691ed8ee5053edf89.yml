@@ -1,0 +1,45 @@
+_id: req_c1dec478e0aa402691ed8ee5053edf89
+type: Request
+parentId: fld_0eed1c71ca9d4e198ffcf733caa71b34
+modified: 1650990968421
+created: 1650987607084
+url: "{{ _.urlCrm }}crm-action"
+name: POST Action
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "Ejemplo",
+    	"description": "Ejemplo",
+    	"id": 1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_43dae7eb724d41c78067c037b23c40a8
+  - id: pair_345ac8dbeb064288ac07a79b2b2133a8
+    name: x-bodytech-organization
+    value: "1"
+    description: ""
+  - id: pair_d0f73cea52fc4e8dae2cf017fecd34b4
+    name: x-bodytech-brand
+    value: "1"
+    description: ""
+  - id: pair_30173cf3efe4486f9007304e41e4450d
+    name: x-bodytech-company
+    value: "1"
+    description: ""
+authentication:
+  type: bearer
+  token: 7e2a8c5901face870227330341e389c7b2a89264
+metaSortKey: -1649108919286
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

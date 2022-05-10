@@ -1,0 +1,35 @@
+_id: req_e244662794c14ee7a27323e30119cfe1
+type: Request
+parentId: fld_7f59282277854f10ad39ce6c6fb908a7
+modified: 1650987662761
+created: 1649165463756
+url: "{{ _.urlCrm }}crm-funnel/16"
+name: DELETE Funnel
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_687a68e405114799a1951b8be12fae9e
+    name: x-bodytech-organization
+    value: "1"
+    description: ""
+  - id: pair_d464e390c55b4e559df92ce536d0a6a9
+    name: x-bodytech-brand
+    value: "1"
+    description: ""
+  - id: pair_7bcef7879f114d4d816fefa285ab3c6d
+    name: x-bodytech-company
+    value: "1"
+    description: ""
+authentication:
+  type: bearer
+  token: 287d9807668e6cc312dbaf7083cb8183dbb757e3
+metaSortKey: -1649165463756
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

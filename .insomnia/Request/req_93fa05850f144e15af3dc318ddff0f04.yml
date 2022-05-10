@@ -1,0 +1,22 @@
+_id: req_93fa05850f144e15af3dc318ddff0f04
+type: Request
+parentId: fld_3a19276bc1b34f61a340d34e9fa05c75
+modified: 1651242728603
+created: 1648737711048
+url: "{{ _.url }}promotions/uuid/f8b6c40c-c655-423b-88be-dca929cf820f"
+name: DELETE Promotion
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+metaSortKey: -1648737711048
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

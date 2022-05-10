@@ -1,0 +1,40 @@
+_id: req_9762f4cc239f42adbf577b03c88f50b0
+type: Request
+parentId: fld_7f59282277854f10ad39ce6c6fb908a7
+modified: 1651251522335
+created: 1651003615343
+url: "{{ _.urlCrm }}stages/9"
+name: GET Steps funnel
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - id: pair_2b09e15788dc477ea68493e2a1b21784
+    name: x-bodytech-organization
+    value: "1"
+    description: ""
+  - id: pair_b429cfad37314b93b0b53e7cfcc81bcd
+    name: x-bodytech-brand
+    value: "1"
+    description: ""
+  - id: pair_8de8ac1440494b549d1131b50ff36640
+    name: x-bodytech-company
+    value: "1"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_141534c9fdad4cb9a8b37cfe6c314f58
+authentication:
+  type: bearer
+  token: 287d9807668e6cc312dbaf7083cb8183dbb757e3
+metaSortKey: -1649016251558.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

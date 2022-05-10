@@ -1,0 +1,41 @@
+_id: req_c1ab55bd62d74c849d4231ece145dc03
+type: Request
+parentId: fld_5af695b677684eea949e0c7214147de9
+modified: 1651263252010
+created: 1651092332047
+url: localhost:8000/api/crm-step
+name: Add crm-step
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+        "name":"prueba andres",
+        "crm_funnels_id":9,
+    		"is_end": 1
+    }
+parameters: []
+headers:
+  - name: x-bodytech-organization
+    value: "1"
+    id: pair_83e65f11b05043b1be0c10bb6d39e7ea
+  - name: x-bodytech-branch
+    value: "1"
+    id: pair_3bc21422e8b94dc79ce3e3961b78a2e3
+  - name: Content-Type
+    value: application/json
+    id: pair_a7230f1c484647009b60d7a5a97dac15
+authentication:
+  type: bearer
+  disabled: false
+  token: 060ba2d11bbff73222e4ddf9d603bb069531e91e
+  prefix: ""
+metaSortKey: -1651092332047
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

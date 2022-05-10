@@ -1,0 +1,39 @@
+_id: req_a48c20a2370444c4bc007617f42d74f5
+type: Request
+parentId: fld_f2d6a27265d44511b283aa3a32f224ad
+modified: 1650316304474
+created: 1649781753459
+url: http://localhost:8082/api/coupons/name
+name: Get by Name
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name":"8cc24644"
+    }
+parameters: []
+headers:
+  - id: pair_5675435b1d09464d9fd9a96f30af4adf
+    name: x-bodytech-organization
+    value: "1"
+    description: ""
+  - id: pair_15303c94505d416a939804d353697bdc
+    name: x-bodytech-brand
+    value: "1"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_897ae41760664bccbbf0e76444459090
+authentication:
+  type: bearer
+  token: 287d9807668e6cc312dbaf7083cb8183dbb757e3
+metaSortKey: -1649624662061.1875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

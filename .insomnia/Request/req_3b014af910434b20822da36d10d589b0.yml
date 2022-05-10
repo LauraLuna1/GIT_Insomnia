@@ -1,0 +1,21 @@
+_id: req_3b014af910434b20822da36d10d589b0
+type: Request
+parentId: fld_19926939db614da08f1ec0d57a4f032e
+modified: 1649427200556
+created: 1649427118997
+url: "{{ _.url }}promotion-profiles/pag"
+name: GET Promotion price mes paginate
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1649427118997
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

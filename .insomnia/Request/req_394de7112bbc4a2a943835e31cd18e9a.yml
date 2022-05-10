@@ -1,0 +1,37 @@
+_id: req_394de7112bbc4a2a943835e31cd18e9a
+type: Request
+parentId: fld_b28aaa07987d458f92a83d5de4bc53b3
+modified: 1651598344228
+created: 1648583942337
+url: "{{ _.url }}products"
+name: Get Products
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_29ed36ed7fc04f0eb548e3a29e7d1e4d
+  - id: pair_6b08456e5b5945a8adc7717baadc3d9a
+    name: x-bodytech-brand
+    value: "1"
+    description: ""
+  - id: pair_63fd63f1604e48c58dbf075549de129d
+    name: x-bodytech-organization
+    value: "1"
+    description: ""
+authentication:
+  type: bearer
+  token: 287d9807668e6cc312dbaf7083cb8183dbb757e3
+  disabled: false
+metaSortKey: -1648584251754
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

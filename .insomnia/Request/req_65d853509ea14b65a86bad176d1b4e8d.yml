@@ -1,0 +1,40 @@
+_id: req_65d853509ea14b65a86bad176d1b4e8d
+type: Request
+parentId: fld_9510f67c0d164199adc71ac7cddcc6bf
+modified: 1651538636067
+created: 1649189048001
+url: "{{ _.url }}promotion-prices"
+name: POST Promotion price
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	  "promotion":[{
+    			"percent": 0, "mes": 1, "value": 1000
+    		},{
+    			"percent": 0, "mes": 2, "value": 1000
+    		}],
+        "id_segment": 83,
+        "id_sub_segment": 1,
+        "id_channel": 1,
+        "value_base": 23,
+        "promotion_id": 17,
+        "id_product":183,
+    		"id_category":1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_3151ccef367d46f48e39219dfae4b7c7
+authentication: {}
+metaSortKey: -1649189048001
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

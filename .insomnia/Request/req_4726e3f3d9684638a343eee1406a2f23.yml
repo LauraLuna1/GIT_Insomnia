@@ -1,0 +1,21 @@
+_id: req_4726e3f3d9684638a343eee1406a2f23
+type: Request
+parentId: fld_b125b28deab146cb803f25120d77557a
+modified: 1651166087944
+created: 1651166032032
+url: "{{ _.urlCrm }}person-deal/70f40728-20bf-41c3-a6ec-e74004bede0d"
+name: GET Data person
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1651166032032
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

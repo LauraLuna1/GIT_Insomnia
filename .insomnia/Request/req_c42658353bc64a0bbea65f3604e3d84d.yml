@@ -1,0 +1,31 @@
+_id: req_c42658353bc64a0bbea65f3604e3d84d
+type: Request
+parentId: fld_f2d6a27265d44511b283aa3a32f224ad
+modified: 1650244897115
+created: 1649689633504
+url: http://localhost:8082/api/coupons
+name: Index
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_5675435b1d09464d9fd9a96f30af4adf
+    name: x-bodytech-organization
+    value: "1"
+    description: ""
+  - id: pair_15303c94505d416a939804d353697bdc
+    name: x-bodytech-brand
+    value: "1"
+    description: ""
+authentication:
+  type: bearer
+  token: 287d9807668e6cc312dbaf7083cb8183dbb757e3
+metaSortKey: -1649689633504
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

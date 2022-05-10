@@ -1,0 +1,31 @@
+_id: req_15380a8c3404407595530e5c5f217c36
+type: Request
+parentId: fld_e84510c66db945d08f10fcce275568c9
+modified: 1650915804147
+created: 1649792123532
+url: http://localhost:8082/api/proposals/proposals_lines/83
+name: proposals
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_941a80ab195e487dbe6690c27bc96457
+    name: x-bodytech-organization
+    value: "1"
+    description: ""
+  - id: pair_f10cdd0110384e7dba769121ae3c61fa
+    name: x-bodytech-brand
+    value: "1"
+    description: ""
+authentication:
+  type: bearer
+  token: 287d9807668e6cc312dbaf7083cb8183dbb757e3
+metaSortKey: -1649792123532
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

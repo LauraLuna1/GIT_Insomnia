@@ -1,0 +1,21 @@
+_id: req_b35285dcee45404180d2650bb6b240cb
+type: Request
+parentId: fld_9510f67c0d164199adc71ac7cddcc6bf
+modified: 1649427769666
+created: 1649426997160
+url: "{{ _.url }}promotion-prices/id/218"
+name: DELETE Promotion price
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1649426997160
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

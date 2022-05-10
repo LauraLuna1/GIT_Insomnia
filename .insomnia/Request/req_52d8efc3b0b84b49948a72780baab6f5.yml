@@ -1,0 +1,21 @@
+_id: req_52d8efc3b0b84b49948a72780baab6f5
+type: Request
+parentId: fld_cdbc4b297d1541cb9a61677f68639ea0
+modified: 1649427344515
+created: 1649427154050
+url: "{{ _.url }}promotion-profiles"
+name: GET Promotions profile
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1649426573745
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

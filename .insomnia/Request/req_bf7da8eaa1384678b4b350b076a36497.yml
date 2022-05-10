@@ -1,0 +1,31 @@
+_id: req_bf7da8eaa1384678b4b350b076a36497
+type: Request
+parentId: fld_f2d6a27265d44511b283aa3a32f224ad
+modified: 1650309435300
+created: 1650302737308
+url: http://localhost:8082/api/coupons/delete-auto
+name: Delete Auto
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_5675435b1d09464d9fd9a96f30af4adf
+    name: x-bodytech-organization
+    value: "1"
+    description: ""
+  - id: pair_15303c94505d416a939804d353697bdc
+    name: x-bodytech-brand
+    value: "1"
+    description: ""
+authentication:
+  type: bearer
+  token: 287d9807668e6cc312dbaf7083cb8183dbb757e3
+metaSortKey: -1649550408958.6875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

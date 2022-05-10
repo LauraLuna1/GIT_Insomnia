@@ -1,0 +1,21 @@
+_id: req_aeafc407631e471a9f6680f30404c8da
+type: Request
+parentId: fld_cdbc4b297d1541cb9a61677f68639ea0
+modified: 1649427330854
+created: 1649427154054
+url: "{{ _.url }}promotion-profiles/pag"
+name: GET Promotions profile paginate
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1649426667555
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

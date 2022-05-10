@@ -1,0 +1,37 @@
+_id: req_614677bd8cc549a788b8275fd6fdb87f
+type: Request
+parentId: fld_19926939db614da08f1ec0d57a4f032e
+modified: 1651156193416
+created: 1649426888743
+url: ""
+name: POST Promotion prices mes
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "id_segment": 1,
+        "id_sub_segment": 3,
+        "id_channel": 1,
+        "month number": 1,
+        "price": 176679,
+        "promotion_id": 2,
+        "id_product":53,
+        "promotion_prices_id": 218,
+        "id_category": 1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a337b8994f0246b2938ebb5387487b99
+authentication: {}
+metaSortKey: -1649426888743
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

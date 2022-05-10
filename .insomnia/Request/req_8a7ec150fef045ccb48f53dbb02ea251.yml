@@ -1,0 +1,30 @@
+_id: req_8a7ec150fef045ccb48f53dbb02ea251
+type: Request
+parentId: fld_76f7fdd721a2469fb4c0676c88dfe779
+modified: 1650297995759
+created: 1650297919435
+url: "{{ _.url }}sales/list"
+name: GET Sales
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"init_date": "2022-04-08",
+      "end_date": "2022-04-12"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_975225cee6fd42879eee7e83b6aff34d
+authentication: {}
+metaSortKey: -1650297919435
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

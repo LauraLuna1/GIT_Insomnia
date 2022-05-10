@@ -1,0 +1,40 @@
+_id: req_b532fe9af790429abaecb755dfcb624d
+type: Request
+parentId: fld_b125b28deab146cb803f25120d77557a
+modified: 1651092332059
+created: 1651092332059
+url: http://127.0.0.1:8000/api/action-call
+name: Calls
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: >-
+    {
+        "crm_deals_uuid": "7c4973b4-7dcc-45d0-8c90-1e856cd60ce4",
+        "crm_actions_type_id": 3,
+        "description_call": "Se realizo llamada de seguimiento pero el afiliado no contesto"
+    }
+parameters: []
+headers:
+  - name: x-bodytech-organization
+    value: "1"
+  - name: x-bodytech-brand
+    value: "1"
+  - name: x-bodytech-company
+    value: "1"
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  disabled: false
+  token: 8cfbfdc5ec3a666e31b3aad3b4a144b877ce6d9b
+  prefix: ""
+metaSortKey: -1651092332059
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

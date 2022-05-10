@@ -1,0 +1,38 @@
+_id: req_2e13179ab5894e4592e12368422d5a87
+type: Request
+parentId: fld_b28aaa07987d458f92a83d5de4bc53b3
+modified: 1651671238427
+created: 1651506485481
+url: "{{ _.url }}products/search-produts"
+name: GET search
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "id_category": 6,
+        "id_sub_segment": 85,
+        "id_channel": 18,
+        "brand_id": 1,
+        "name": "Producto Promoción"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_fd5e8e6560aa43a288afba01b875f0ea
+  - id: pair_55da8157c5a9410484dfb02cab2d0de5
+    name: x-bodytech-brand
+    value: "1"
+    description: ""
+    disabled: false
+authentication: {}
+metaSortKey: -1651506485481
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,35 @@
+_id: req_0aa0a44069584583890b94653a33cd3c
+type: Request
+parentId: fld_cdbc4b297d1541cb9a61677f68639ea0
+modified: 1649427350064
+created: 1649427154043
+url: "{{ _.url }}promotion-profiles/id/1"
+name: PUT Promotion profile
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "name": 1,
+        "sex": 3,
+        "age_start": 1,
+        "age_end": 1,
+        "birthday_start": 176679,
+        "birthday_end": 2,
+        "user_last_update":19
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_80100a81711a4935b58b9ba1afa262ec
+authentication: {}
+metaSortKey: -1649426483695
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

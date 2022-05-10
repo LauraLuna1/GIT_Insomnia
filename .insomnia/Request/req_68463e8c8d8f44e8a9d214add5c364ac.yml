@@ -1,0 +1,44 @@
+_id: req_68463e8c8d8f44e8a9d214add5c364ac
+type: Request
+parentId: fld_b125b28deab146cb803f25120d77557a
+modified: 1651261391242
+created: 1651165948275
+url: "{{ _.urlCrmDev }}deal-history-step"
+name: POST Crm deal change pace
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "uuid" : "7c4973b4-7dcc-45d0-8c90-1e856cd60ce4",
+        "crm_steps_id": 6
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_da5561e8acdd4e9d8ef17de779bcf707
+  - id: pair_e34a2132f0924e799265dc0f4e50bccd
+    name: x-bodytech-organization
+    value: "1"
+    description: ""
+  - id: pair_237287d7346e477da4d7ccd5663b4a07
+    name: x-bodytech-brand
+    value: "1"
+    description: ""
+  - id: pair_905ebbfb09aa47a290116e6f1136b78c
+    name: x-bodytech-company
+    value: "1"
+    description: ""
+authentication:
+  type: bearer
+  token: 287d9807668e6cc312dbaf7083cb8183dbb757e3
+metaSortKey: -1651165948275
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

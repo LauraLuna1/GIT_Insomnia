@@ -1,0 +1,21 @@
+_id: req_42e8d2c3aa5043cab9158b3b8b0f4d49
+type: Request
+parentId: fld_2263275a2931476796fc6ef9219e1ddc
+modified: 1649427434093
+created: 1649427291389
+url: "{{ _.url }}promotion-rules/id/1"
+name: GET Promotions rules by id
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1649426632203
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

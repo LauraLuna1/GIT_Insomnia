@@ -1,0 +1,35 @@
+_id: req_98f260c113fd4b0fb2155afed016665a
+type: Request
+parentId: fld_9510f67c0d164199adc71ac7cddcc6bf
+modified: 1649427724519
+created: 1649426483695
+url: "{{ _.url }}promotion-prices/id/218"
+name: PUT Promotion price
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "id_segment": 1,
+        "id_sub_segment": 3,
+        "id_channel": 1,
+        "price": 2000,
+        "id_channel": 1,
+        "promotion_id": 2,
+        "id_product":155
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_80100a81711a4935b58b9ba1afa262ec
+authentication: {}
+metaSortKey: -1649426483695
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

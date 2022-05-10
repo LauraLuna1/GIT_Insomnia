@@ -1,0 +1,21 @@
+_id: req_9773650ae16440e6a323f79d4d45b67a
+type: Request
+parentId: fld_19926939db614da08f1ec0d57a4f032e
+modified: 1649426870960
+created: 1649426859475
+url: "{{ _.url }}promotion-prices-mes"
+name: GET Promotions prices mes
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1649426859475
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

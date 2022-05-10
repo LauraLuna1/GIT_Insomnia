@@ -1,0 +1,21 @@
+_id: req_9e17143330a042648ab6f60c46b0495e
+type: Request
+parentId: fld_2263275a2931476796fc6ef9219e1ddc
+modified: 1649427443177
+created: 1649427291394
+url: "{{ _.url }}promotion-rules/id/1"
+name: DELETE Promotion rules
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1649426997160
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

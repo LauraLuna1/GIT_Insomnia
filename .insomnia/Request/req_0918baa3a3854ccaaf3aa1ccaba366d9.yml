@@ -1,0 +1,37 @@
+_id: req_0918baa3a3854ccaaf3aa1ccaba366d9
+type: Request
+parentId: fld_19926939db614da08f1ec0d57a4f032e
+modified: 1649426971982
+created: 1649426941820
+url: "{{ _.url }}promotion-prices-mes/id/1"
+name: PUT Promotion price mes
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "id_segment": 1,
+        "id_sub_segment": 3,
+        "id_channel": 1,
+        "month number": 1,
+        "price": 176679,
+        "promotion_id": 2,
+        "id_product":53,
+        "promotion_prices_id": 218,
+        "id_category": 1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_91f9284441204ce6a718bad7919f8efb
+authentication: {}
+metaSortKey: -1649426941820
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

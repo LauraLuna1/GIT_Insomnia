@@ -1,0 +1,21 @@
+_id: req_51e57a75305e4181871771bb0ed6852b
+type: Request
+parentId: fld_150976084941405d91e282f55451e36f
+modified: 1650318881653
+created: 1648593344486
+url: "{{ _.url }}product-prices/uuid/6414996a-7167-4ea4-ad6e-3902b8fb730f"
+name: Get Prices by product id
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1648593344486
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

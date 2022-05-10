@@ -1,0 +1,44 @@
+_id: req_2054a284927b4dafac3d28f0f3fff8d2
+type: Request
+parentId: fld_535d7b9150aa477a8ed763cd5fef0b1a
+modified: 1651671672112
+created: 1651671630064
+url: "{{ _.url }}payment-types/id/7"
+name: PUT Payment type
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"code": "test",
+    	"label": "test-test"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_f186975beff14057a999952ad22affcb
+  - id: pair_ef3b7d7c496642a3aad7a193aa551150
+    name: x-bodytech-organization
+    value: "1"
+    description: ""
+  - id: pair_9e4a544aa2104654b2bbcd017309ab37
+    name: x-bodytech-brand
+    value: "1"
+    description: ""
+  - id: pair_95f9cba87fbd420bbddd17f2c9ac9cd5
+    name: x-bodytech-company
+    value: "1"
+    description: ""
+authentication:
+  type: bearer
+  token: 287d9807668e6cc312dbaf7083cb8183dbb757e3
+metaSortKey: -1651641600303
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

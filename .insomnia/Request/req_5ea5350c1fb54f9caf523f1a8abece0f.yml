@@ -1,0 +1,31 @@
+_id: req_5ea5350c1fb54f9caf523f1a8abece0f
+type: Request
+parentId: fld_d3462d9f4dee4420b98284169c23fb03
+modified: 1650915816483
+created: 1650401331430
+url: http://localhost:8082/api/invoice-line/invoice/378
+name: invoices
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_941a80ab195e487dbe6690c27bc96457
+    name: x-bodytech-organization
+    value: "1"
+    description: ""
+  - id: pair_f10cdd0110384e7dba769121ae3c61fa
+    name: x-bodytech-brand
+    value: "1"
+    description: ""
+authentication:
+  type: bearer
+  token: 287d9807668e6cc312dbaf7083cb8183dbb757e3
+metaSortKey: -1649743165598
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

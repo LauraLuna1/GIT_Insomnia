@@ -1,0 +1,21 @@
+_id: req_a5637757a14c45ac9beccf4ff4950658
+type: Request
+parentId: fld_e2fb0baabec3425e9da0777a958a0895
+modified: 1650485435837
+created: 1648605305762
+url: "{{ _.url }}variants/list/6414996a-7167-4ea4-ad6e-3902b8fb730f"
+name: GET Variants
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1648605305763
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,31 @@
+_id: req_0592613f49334a1fb40e20e261b7bd4e
+type: Request
+parentId: fld_b125b28deab146cb803f25120d77557a
+modified: 1651092332062
+created: 1651092332062
+url: http://127.0.0.1:8000/api/filter-deals?region=2
+name: Get filter Deals
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: x-bodytech-organization
+    value: "1"
+  - name: x-bodytech-brand
+    value: "1"
+  - name: x-bodytech-company
+    value: "1"
+authentication:
+  type: bearer
+  disabled: false
+  token: 4852d98c80be3abcd2ab290af3f43a7a88f2c205
+  prefix: ""
+metaSortKey: -1651092332062
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

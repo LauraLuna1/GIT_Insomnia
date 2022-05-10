@@ -1,0 +1,21 @@
+_id: req_16728468d96d467ab78234fdde2bfbe1
+type: Request
+parentId: fld_2263275a2931476796fc6ef9219e1ddc
+modified: 1649427438538
+created: 1649427291391
+url: "{{ _.url }}promotion-rules/pag"
+name: GET Promotions rules paginate
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1649426667555
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,45 @@
+_id: req_d983da1667624d909e83985f53a716a4
+type: Request
+parentId: fld_7f59282277854f10ad39ce6c6fb908a7
+modified: 1651251501731
+created: 1649108919286
+url: "{{ _.urlCrm }}crm-funnel"
+name: POST Funnel
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "Ejemplo",
+    	"description": "MacBook Pro",
+    	"crm_funnels_type": "1"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_43dae7eb724d41c78067c037b23c40a8
+  - id: pair_345ac8dbeb064288ac07a79b2b2133a8
+    name: x-bodytech-organization
+    value: "1"
+    description: ""
+  - id: pair_d0f73cea52fc4e8dae2cf017fecd34b4
+    name: x-bodytech-brand
+    value: "1"
+    description: ""
+  - id: pair_30173cf3efe4486f9007304e41e4450d
+    name: x-bodytech-company
+    value: "1"
+    description: ""
+authentication:
+  type: bearer
+  token: 287d9807668e6cc312dbaf7083cb8183dbb757e3
+metaSortKey: -1649108919286
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

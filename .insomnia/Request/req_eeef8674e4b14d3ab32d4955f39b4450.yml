@@ -1,0 +1,21 @@
+_id: req_eeef8674e4b14d3ab32d4955f39b4450
+type: Request
+parentId: fld_3a19276bc1b34f61a340d34e9fa05c75
+modified: 1649426690138
+created: 1648738699850
+url: "{{ _.url }}promotions/uuid/de7a9d78-a83c-4039-9205-f7012524e79d"
+name: GET Promotions by uuid
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1648738335171.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

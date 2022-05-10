@@ -1,0 +1,33 @@
+_id: req_6393d8db89e04e55b17cab2fc062b5f2
+type: Request
+parentId: fld_2263275a2931476796fc6ef9219e1ddc
+modified: 1649427417473
+created: 1649427291383
+url: "{{ _.url }}promotion-rules/id/1"
+name: PUT Promotion rules
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "name_fule": 1,
+        "promotion_id": 2,
+        "type": "regla_venta",
+        "subtype": "medio_pago",
+        "json_rule":{"status": "Success"}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_80100a81711a4935b58b9ba1afa262ec
+authentication: {}
+metaSortKey: -1649426483695
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,31 @@
+_id: req_04eb950011034ce38ff9dab0de740361
+type: Request
+parentId: fld_b28aaa07987d458f92a83d5de4bc53b3
+modified: 1650395855477
+created: 1650312942405
+url: "{{ _.devurl }}products/consecutive"
+name: GET consecutive product
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_7b62dd973679407c80954e3c2c903259
+    name: x-bodytech-organization
+    value: 7134d120-bfc9-11eb-b063-062b475b052b
+    description: ""
+  - id: pair_3e30bfa34b044af6bce4ff462479922f
+    name: x-bodytech-brand
+    value: "1"
+    description: ""
+authentication:
+  type: bearer
+  token: 3f841c1f83b5849db79010c11032f93867d637ef
+metaSortKey: -1649541127399
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

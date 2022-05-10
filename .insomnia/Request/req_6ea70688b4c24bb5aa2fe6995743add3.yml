@@ -1,0 +1,21 @@
+_id: req_6ea70688b4c24bb5aa2fe6995743add3
+type: Request
+parentId: fld_b28aaa07987d458f92a83d5de4bc53b3
+modified: 1649710870313
+created: 1649351151645
+url: "{{ _.url }}products/active/e3ea0524-a246-4962-839d-bfbe41b26df4"
+name: PUT active
+description: ""
+method: PUT
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1649351151645
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

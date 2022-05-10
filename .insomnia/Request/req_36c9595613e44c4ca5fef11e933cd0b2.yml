@@ -1,0 +1,44 @@
+_id: req_36c9595613e44c4ca5fef11e933cd0b2
+type: Request
+parentId: fld_0eed1c71ca9d4e198ffcf733caa71b34
+modified: 1650989012064
+created: 1650987607090
+url: "{{ _.urlCrm }}crm-action/1"
+name: PUT Action
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "Email",
+    	"description": "Enviar email"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_44c1909b8d4d4f1386dce4c6a3a57aab
+  - id: pair_65f1604bbe0846eb930dadf321abccf8
+    name: x-bodytech-organization
+    value: "1"
+    description: ""
+  - id: pair_6ea167c80dd244bab505b22438390a81
+    name: x-bodytech-brand
+    value: "1"
+    description: ""
+  - id: pair_ed27432cef054fdca2396c3bd3ce64e1
+    name: x-bodytech-company
+    value: "1"
+    description: ""
+authentication:
+  type: bearer
+  token: 287d9807668e6cc312dbaf7083cb8183dbb757e3
+metaSortKey: -1649164701976
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

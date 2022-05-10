@@ -1,0 +1,21 @@
+_id: req_c7ec98bf9cd342fe80613b5616209ca3
+type: Request
+parentId: fld_b28aaa07987d458f92a83d5de4bc53b3
+modified: 1649540955019
+created: 1649540950378
+url: "{{ _.url }}products/get?search="
+name: GET Products search
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1649540950378
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

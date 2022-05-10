@@ -1,0 +1,46 @@
+_id: req_384e7be0adbd454293ecb0cfaee5cd66
+type: Request
+parentId: fld_4874f268a56048cf8d1334570e0ce9ad
+modified: 1651779582372
+created: 1651523553763
+url: "{{ _.urlCrmDev }}open-box"
+name: POST Box open
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"cash_less": "10000",
+    	"cash_initial": "20000",
+    	"base": "50000",
+    	"status": "open"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_7a878c99dbb24982976f5d7b737b746a
+  - id: pair_d4722abf3ba847b98be553ad7ec08d61
+    name: x-bodytech-organization
+    value: "1"
+    description: ""
+  - id: pair_019c52b8021043ab872899132c5a796b
+    name: x-bodytech-brand
+    value: "2"
+    description: ""
+  - id: pair_715c6ae3e8e747c29349819c633abc1a
+    name: x-bodytech-company
+    value: "1"
+    description: ""
+authentication:
+  type: bearer
+  token: 287d9807668e6cc312dbaf7083cb8183dbb757e3
+metaSortKey: -1651523553763
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

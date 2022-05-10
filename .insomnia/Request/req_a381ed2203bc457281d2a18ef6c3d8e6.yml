@@ -1,0 +1,39 @@
+_id: req_a381ed2203bc457281d2a18ef6c3d8e6
+type: Request
+parentId: fld_150976084941405d91e282f55451e36f
+modified: 1649791183734
+created: 1648593293292
+url: "{{ _.url }}product-prices/id/437"
+name: Put Price
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "id_sub_segment":[1,2],
+        "id_channel":[1],
+        "id_category":[1],
+        "price":222,
+        "local_tax":null,
+        "local_tax_type":1,
+        "local_tax_2":null,
+        "local_tax_type_2":null,
+        "local_tax_3":null,
+        "local_tax_type_3":null
+
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_9732b382912c4676a6b7850291982850
+authentication: {}
+metaSortKey: -1648593293292
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

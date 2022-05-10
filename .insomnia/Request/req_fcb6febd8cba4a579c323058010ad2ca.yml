@@ -1,0 +1,31 @@
+_id: req_fcb6febd8cba4a579c323058010ad2ca
+type: Request
+parentId: fld_b125b28deab146cb803f25120d77557a
+modified: 1651092332058
+created: 1651092332058
+url: http://127.0.0.1:8000/api/count-deals/has-step/4
+name: Get deals has step
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: x-bodytech-organization
+    value: "1"
+  - name: x-bodytech-brand
+    value: "1"
+  - name: x-bodytech-company
+    value: "1"
+authentication:
+  type: bearer
+  disabled: false
+  token: 030c170457c37c0b3240fd36b9c140039f6334b1
+  prefix: ""
+metaSortKey: -1651092332058
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

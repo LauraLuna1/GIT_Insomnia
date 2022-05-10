@@ -1,0 +1,47 @@
+_id: req_8752691ea7d8445080d35a410b9c60cd
+type: Request
+parentId: fld_b125b28deab146cb803f25120d77557a
+modified: 1651092332060
+created: 1651092332060
+url: http://127.0.0.1:8000/api/send-email
+name: Sen Emails
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: >-
+    {
+        "crm_deals_uuid": "7c4973b4-7dcc-45d0-8c90-1e856cd60ce4",
+        "crm_actions_type_id": 2,
+        "send_to": "estefasierra12@gmail.com",
+        "subject": "Prueba Api",
+        "data_template": {
+                    "ais_name":"pachulin pachulin",
+                    "name_user": "Johan Farfán",
+                    "ais_firm": "https://bodytech-dev.s3.us-west-2.amazonaws.com/company/626955f5e6500.png",
+                    "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
+        }
+    }
+parameters: []
+headers:
+  - name: x-bodytech-organization
+    value: "1"
+  - name: x-bodytech-brand
+    value: "1"
+  - name: x-bodytech-company
+    value: "1"
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  disabled: false
+  token: 8cfbfdc5ec3a666e31b3aad3b4a144b877ce6d9b
+  prefix: ""
+metaSortKey: -1651092332060
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

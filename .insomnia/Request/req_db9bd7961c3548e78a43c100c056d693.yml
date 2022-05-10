@@ -1,0 +1,21 @@
+_id: req_db9bd7961c3548e78a43c100c056d693
+type: Request
+parentId: fld_cdbc4b297d1541cb9a61677f68639ea0
+modified: 1649427318326
+created: 1649427154056
+url: "{{ _.url }}promotion-profiles/id/1"
+name: DELETE Promotion profile
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1649426997160
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

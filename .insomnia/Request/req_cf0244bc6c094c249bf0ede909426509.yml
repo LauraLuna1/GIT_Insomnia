@@ -1,0 +1,21 @@
+_id: req_cf0244bc6c094c249bf0ede909426509
+type: Request
+parentId: fld_b28aaa07987d458f92a83d5de4bc53b3
+modified: 1649426724370
+created: 1649191942447
+url: "{{ _.url }}products/filter?search=ba se"
+name: GET Filter type product
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1649191942447
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

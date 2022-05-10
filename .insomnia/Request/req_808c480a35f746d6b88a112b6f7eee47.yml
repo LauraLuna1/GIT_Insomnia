@@ -1,0 +1,76 @@
+_id: req_808c480a35f746d6b88a112b6f7eee47
+type: Request
+parentId: fld_4874f268a56048cf8d1334570e0ce9ad
+modified: 1651768190688
+created: 1651534295198
+url: "{{ _.urlCrm }}close-box"
+name: POST Close box
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id": 11,
+    	"close": [{
+    		"id": 1,
+    		"value": "50000",
+    		"base": "0",
+    		"cash_less": "0",
+    		"status": "close"
+    	},
+    	{
+    		"id": 3,
+    		"value": "18000",
+    		"base": "0",
+    		"cash_less": "0",
+    		"status": "close"
+    	},{
+    		"id": 4,
+    		"value": "4000",
+    		"base": "0",
+    		"cash_less": "0",
+    		"status": "close"
+    	},
+    	{
+    		"id": 5,
+    		"value": "0",
+    		"base": "2000",
+    		"cash_less": "0",
+    		"status": "close"
+    	},{
+    		"id": 6,
+    		"value": "0",
+    		"base": "0",
+    		"cash_less": "1000",
+    		"status": "close"
+    	}]
+    }
+parameters: []
+headers:
+  - id: pair_7dfa8c2d80614381bd1170ab4b482bae
+    name: x-bodytech-organization
+    value: "1"
+    description: ""
+  - id: pair_451f1fd6aa2b4edaacc925208d61d26e
+    name: x-bodytech-brand
+    value: "1"
+    description: ""
+  - id: pair_b0fb9ac46c1d4c31affda15a181eac62
+    name: x-bodytech-company
+    value: "1"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_ba7561ae57b7418aae95fb640c7c65bb
+authentication:
+  type: bearer
+  token: 287d9807668e6cc312dbaf7083cb8183dbb757e3
+metaSortKey: -1651534295198
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

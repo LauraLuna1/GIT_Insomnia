@@ -1,0 +1,45 @@
+_id: req_16cea44962f4403083c6160a0a894c8d
+type: Request
+parentId: fld_7f59282277854f10ad39ce6c6fb908a7
+modified: 1651249432540
+created: 1649164701976
+url: "{{ _.urlCrm }}crm-funnel/16"
+name: PUT Funnel
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "Flujo Mac 3",
+    	"description": "MacBook Pro",
+    	"crm_funnels_type": "1"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_44c1909b8d4d4f1386dce4c6a3a57aab
+  - id: pair_65f1604bbe0846eb930dadf321abccf8
+    name: x-bodytech-organization
+    value: "1"
+    description: ""
+  - id: pair_6ea167c80dd244bab505b22438390a81
+    name: x-bodytech-brand
+    value: "1"
+    description: ""
+  - id: pair_ed27432cef054fdca2396c3bd3ce64e1
+    name: x-bodytech-company
+    value: "1"
+    description: ""
+authentication:
+  type: bearer
+  token: 287d9807668e6cc312dbaf7083cb8183dbb757e3
+metaSortKey: -1649164701976
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

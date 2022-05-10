@@ -1,0 +1,22 @@
+_id: req_ce0d0444dba643c39faa5ebb21d07827
+type: Request
+parentId: wrk_90807921b72d4710bc29b66764a527cd
+modified: 1651764227936
+created: 1651259333778
+url: "{{ _.urlCrm }}connection"
+name: GET connection db
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+metaSortKey: -1651523543818
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

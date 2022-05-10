@@ -1,0 +1,31 @@
+_id: req_181df6a098a34cc1be2a92502002213d
+type: Request
+parentId: fld_5af695b677684eea949e0c7214147de9
+modified: 1651263251768
+created: 1651092332050
+url: localhost:8000/api/steps?limit=1
+name: Get crm-step
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: x-bodytech-organization
+    value: "1"
+    id: pair_ea296dbfc613495e998aa9630de834c1
+  - name: x-bodytech-branch
+    value: "1"
+    id: pair_57c44c93079c4a59ac99e8b86ac59485
+authentication:
+  type: bearer
+  disabled: false
+  token: 060ba2d11bbff73222e4ddf9d603bb069531e91e
+  prefix: ""
+metaSortKey: -1651092332050
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

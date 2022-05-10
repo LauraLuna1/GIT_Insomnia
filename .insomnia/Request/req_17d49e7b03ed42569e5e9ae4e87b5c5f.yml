@@ -1,0 +1,34 @@
+_id: req_17d49e7b03ed42569e5e9ae4e87b5c5f
+type: Request
+parentId: fld_3a19276bc1b34f61a340d34e9fa05c75
+modified: 1649192453185
+created: 1648735925213
+url: "{{ _.url }}promotions/uuid/918582d3-beff-4c44-aa9e-74cab215b016"
+name: PUT Promotion
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "name":"40 anos Bodytechd",
+        "description":"50% en todos los 222222ddd",
+        "start_period_publication":"2022-04-10",
+        "end_period_publication":"2022-05-10",
+        "start_period_contract":"2022-04-10",
+        "months_advance":"1,2,3"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_dfaba6e5c1d2490eb920ba93d719979b
+authentication: {}
+metaSortKey: -1648735925213
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

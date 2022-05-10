@@ -1,0 +1,21 @@
+_id: req_c65d77a784e64d908889d7de3dae6dfc
+type: Request
+parentId: fld_c85f03e5306d418d8d84f5fd5420c951
+modified: 1648668485773
+created: 1648668371295
+url: "{{ _.url }}afiliates/document?type_document=1&document=10"
+name: Filter by document and type document
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1648668371295
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

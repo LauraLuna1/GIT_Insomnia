@@ -1,0 +1,44 @@
+_id: req_477c5fad9e4c4c3eb8c0dd73d6a352eb
+type: Request
+parentId: fld_3a19276bc1b34f61a340d34e9fa05c75
+modified: 1651538632728
+created: 1648733995255
+url: "{{ _.url }}promotions"
+name: POST Promotion
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "name":"Promotion",
+        "description":"Validacion de promocion",
+        "start_period_publication":"2022-04-29",
+        "end_period_publication":"2022-05-05",
+        "start_period_contract":"2022-04-30",
+        "months_advance":"1,2"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_6867599988eb48a7b8ae13f7b9c4abeb
+  - id: pair_123f329d1f5a4b20bc651e8fd6d54ef6
+    name: x-bodytech-organization
+    value: "1"
+    description: ""
+  - id: pair_387bb71174a84b0a9d32f895e4d0f0a1
+    name: x-bodytech-brand
+    value: "2"
+    description: ""
+authentication:
+  type: bearer
+  token: 287d9807668e6cc312dbaf7083cb8183dbb757e3
+metaSortKey: -1648733995255
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

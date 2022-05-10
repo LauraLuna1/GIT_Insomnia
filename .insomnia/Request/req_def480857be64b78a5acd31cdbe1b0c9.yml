@@ -1,0 +1,21 @@
+_id: req_def480857be64b78a5acd31cdbe1b0c9
+type: Request
+parentId: fld_3a19276bc1b34f61a340d34e9fa05c75
+modified: 1651782959288
+created: 1651782712054
+url: "{{ _.url }}promotions/product-mesh/uuid/ffadcc72-4aa5-49a8-9d5c-4089aa720f5f"
+name: GET Product mesh
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1651782712054
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

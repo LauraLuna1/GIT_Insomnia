@@ -1,0 +1,33 @@
+_id: req_d2d73a8d43514c5e813a1493d3998b5e
+type: Request
+parentId: fld_2263275a2931476796fc6ef9219e1ddc
+modified: 1649427399247
+created: 1649427291374
+url: "{{ _.url }}promotion-rules"
+name: POST Promotion rules
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "name_fule": 1,
+        "promotion_id": 2,
+        "type": "regla_venta",
+        "subtype": "medio_pago",
+        "json_rule":{"status": "error"}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_3151ccef367d46f48e39219dfae4b7c7
+authentication: {}
+metaSortKey: -1649189048001
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
